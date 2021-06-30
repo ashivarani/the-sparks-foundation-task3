@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: #ff0000;
+	font-size: 40px;
+	font-family:"sans-serif";
+	text-transform: uppercase;
+	width: 1000px;
+	font-weight: bold;
+	text-align:center;
+}
+.center h2{
+	color:#181a06ef;
+	font-size:40px;
+	font-family:"sans-serif";
+	text-transform:uppercase;
+	width: 900px;
+	font-weight:600%;
+	text-align: center;
+}
+.buttons button{
+	height:40px;
+	width: 180px;
+	font-size: 18px;
+	font-weight: 600;
+	color:rgb(233, 240, 234);
+	background: rgb(17, 131, 51);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #12ad39;
+	border-radius: 25px;
+	transition: .4s;	
+}
+.buttons .btn{
+	margin-left: 400px;
+	text-align: center;
+}
+.buttons button:hover{
+	background: #158511;
+}
+
